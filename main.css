@@ -17,7 +17,7 @@ header .container {
 }
 
 header li {
-    display: inline-block;
+    display: inline;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-left: 16px;
@@ -29,20 +29,14 @@ header li a {
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
     width: 1366px;
     margin: 0 auto 0 auto;
-    margin-right: auto;
-    flex-wrap: wrap;
 }
 
 .articles {
     display: flex;
-    width: 180px
-    height: 180px
-    /* flex-wrap: wrap;*/
-    /*justify-content: space-between;*/
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .articles article img {
